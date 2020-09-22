@@ -2,14 +2,17 @@ package com.example.yourtaskmanager.Model;
 
 public class Data {
     private String title;
-    private String node;
+    private String note;
     private String date;
     private String id;
 
+    public Data (){
 
-    public Data(String title, String node, String date, String id) {
+    }
+
+    public Data(String title, String note, String date, String id) {
         this.title = title;
-        this.node = node;
+        this.note = note;
         this.date = date;
         this.id = id;
     }
@@ -22,12 +25,12 @@ public class Data {
         this.title = title;
     }
 
-    public String getNode() {
-        return node;
+    public String getNote() {
+        return note;
     }
 
-    public void setNode(String node) {
-        this.node = node;
+    public void setNote(String note) {
+        this.note = note;
     }
 
     public String getDate() {
